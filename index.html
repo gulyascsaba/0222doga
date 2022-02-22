@@ -6,31 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>0222 Doga</title>
+    
+
 </head>
 <body>
     <div class="container">
         <p class="h3 text-center">Dolgozat kvízfeladat</p>
         <hr style="width:100%;text-align:left;margin-left:0">
-        <p class="h2">1. Mennyi 5-nek a harmadik hatványa</p>
+        <p class="h2">1. Mennyi 5-nek a harmadik hatványa?</p>
         
-        <input type="radio" id="1" name="elsgomb" value="55">
+        <input type="radio" id="1" name="elsgomb" value="Hamis">
         <label for="html">55</label><br>
-        <input type="radio" id="2" name="masodikgomb" value="125">
+        <input type="radio" id="2" name="masodikgomb" value="Igaz">
         <label for="css">125</label><br>
-        <input type="radio" id="3" name="harmadikgomb" value="75">
+        <input type="radio" id="3" name="harmadikgomb" value="Hamis">
         <label for="javascript">75</label><br>
-        <input type="radio" id="4" name="negyedikgomb" value="25">  
+        <input type="radio" id="4" name="negyedikgomb" value="Hamis">  
         <label for="javascript">25</label>
+
         <hr style="width:100%;text-align:left;margin-left:0">
 
     <p class="h2">Mi Anglia fővárosa?</p>
      <select Name="fovaros" Size="4">  
-    <option> Bukarest </option>  
-    <option> Edinbourgh </option>  
-    <option> Berlin </option>  
-    <option> London </option>  
+    <option id="Bukarest" value="Hamis"> Bukarest </option>  
+    <option id="Edinbourgh" value="Hamis"> Edinbourgh </option>  
+    <option id="Berlin" value="Hamis"> Berlin </option>  
+    <option id="London" value="Igaz"> London </option>  
     </select>  
+
     <hr style="width:100%;text-align:left;margin-left:0">
+
     <p class="h2">Melyik ételek számítanak húsfélének?</p>
     <form>
         <input type="checkbox" id="Steak" value="Igen">
@@ -42,15 +47,18 @@
         <input type="checkbox" id="Rantott" value="Igen">
         <label > Rántotthús </label><br>
       </form>
+
       <hr style="width:100%;text-align:left;margin-left:0">
+
       <p class="h2">Milyen évet írunk jelenleg? </p>
       <form><input type="text" id="egyes"> </form>
       <hr style="width:100%;text-align:left;margin-left:0">
-      <p class="h2">Hány éve haltak ki a dinoszauruszok?</p>
+      <p class="h2">Hány millió éve haltak ki a dinoszauruszok?</p>
       <form><input type="text" id="kettes"> </form>
-
-
+      <hr style="width:100%;text-align:left;margin-left:0">
+      <button type="button" class="btn btn-danger">Teszt lezárása és válaszok beküldése</button>
 
 </div>
+ 
 </body>
 </html>

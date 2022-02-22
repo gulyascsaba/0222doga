@@ -9,21 +9,21 @@
     
 
 </head>
-<body>
+<body style="background-color:rgb(140, 243, 157);">
     <div class="container">
-        <p class="h3 text-center">Dolgozat kvízfeladat</p>
+        <p class="h2 text-center">Dolgozat kvízfeladat</p>
         <hr style="width:100%;text-align:left;margin-left:0">
         <p class="h2">1. Mennyi 5-nek a harmadik hatványa?</p>
         
-        <input type="radio" id="1" name="elsgomb" value="Hamis">
+        <input type="radio" id="1" name="radio" value="Hamis">
         <label for="html">55</label><br>
-        <input type="radio" id="2" name="masodikgomb" value="Igaz">
+        <input type="radio" id="2" name="radio" value="Igaz">
         <label for="css">125</label><br>
-        <input type="radio" id="3" name="harmadikgomb" value="Hamis">
+        <input type="radio" id="3" name="radio" value="Hamis">
         <label for="javascript">75</label><br>
-        <input type="radio" id="4" name="negyedikgomb" value="Hamis">  
+        <input type="radio" id="4" name="radio" value="Hamis">  
         <label for="javascript">25</label>
-
+       
         <hr style="width:100%;text-align:left;margin-left:0">
 
     <p class="h2">Mi Anglia fővárosa?</p>
@@ -55,10 +55,13 @@
       <hr style="width:100%;text-align:left;margin-left:0">
       <p class="h2">Hány millió éve haltak ki a dinoszauruszok?</p>
       <form><input type="text" id="kettes"> </form>
+
       <hr style="width:100%;text-align:left;margin-left:0">
+
       <button type="button" class="btn btn-danger">Teszt lezárása és válaszok beküldése</button>
+      <span id="valaszok"> </span>
 
 </div>
- 
+<script src="script.js"></script>
 </body>
 </html>
